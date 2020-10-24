@@ -17,5 +17,6 @@ COPY migrations migrations
 COPY flasky.py config.py boot.sh ./
 
 # run-time configuration
+# Add 1 line
 EXPOSE 5000
 ENTRYPOINT ["./boot.sh"]
