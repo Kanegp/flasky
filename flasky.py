@@ -80,3 +80,6 @@ def deploy():
 
     # ensure all users are following themselves
     User.add_self_follows()
+
+# adding comment
+print('Hello Soshi')
